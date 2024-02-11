@@ -1,0 +1,132 @@
+body{
+    font-family:  "Protest Riot";
+    background-image: url("./img/fondo.jpg");
+}
+
+section  {
+    
+    display: flex;
+    justify-content: end;
+    
+    
+}
+section button{
+    width: 150px;
+    height: 30px;
+}
+
+.sorteo{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    gap: 40px;
+}
+h1 {
+    margin: 2px;
+    font-size: 28px;
+}
+p {
+    background-color: white;
+    font-size: 50px;
+    border: 15px solid  black;
+    border-radius: 70px;
+}
+.tarjetaGanador{
+    background-color: white;
+    font-size: 30px;
+    border-radius: 12px;
+    padding: 8px;
+    border: 2px solid black;
+}
+.container {
+    
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    overflow: scroll;
+    scroll-snap-type: x mandatory;
+    scrollbar-color:  transparent transparent;
+    
+
+}
+
+.carton {
+    
+    border: 2px solid black;
+    
+    margin: 0 600px ;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: white;
+    scroll-snap-align: center;
+    
+}
+
+.fila {
+    display: flex;
+}
+
+.numero {
+    width: 70px;
+    height: 70px;
+    border: 2px solid black;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    
+}
+
+.encontrado{
+    
+    background-image: url("./img/ficha.png") ;
+    background-size: 73.3px 73.3px;
+    background-repeat: no-repeat;
+    
+}
+
+@media  screen and (max-width: 620px) {
+    .numero {
+        width: 30px;
+        height: 30px;
+        border: 2px solid black;
+        border-radius: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+        
+    }
+    .tarjetaGanador{
+        background-color: white;
+        font-size: 10px;
+        border-radius: 12px;
+        padding: 8px;
+        border: 2px solid black;
+    }
+    p {
+        background-color: white;
+        font-size: 30px;
+        border: 10px solid  black;
+        border-radius: 70px;
+    }
+    section button{
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+    }
+    #btnGenerarNum{
+        font-size: 10px;
+        height: 30px;
+    }
+    .encontrado{
+    
+        background-size: 32px 32px;
+
+        
+    }
+    
+}

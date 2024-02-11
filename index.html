@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOTO-WIN</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <section class="seccion1"><h1 id="titulo">LOTO-WIN</h1></section>
+    
+    <section class="seccion2">
+        <form action="" method="POST" id="form">
+            <div class="form">
+                <h1>Registrar Jugadores</h1>
+                <div class="grupo">
+                    <input type="text" id="nombreJugador1" required /><span class="barra"></span>
+                    <label for="">Nombre del  jugador 1 </label><br/>
+                </div>
+                <div class="grupo">
+                    <input type="text" id="nombreJugador2" required /><span class="barra"></span>
+                    <label for="">Nombre del  jugador 2</label><br/>
+                </div>
+                <div class="grupo">
+                    <input type="text" id="nombreJugador3" required /><span class="barra"></span>
+                    <label for="">Nombre del  jugador 3 </label><br/>
+                </div>
+                <div class="grupo">
+                    <input type="text" id="nombreJugador4" required/><span class="barra"></span>
+                    <label for="">Nombre del  jugador 4 </label><br/>
+                </div>
+                <div class="grupo">
+                    <input type="number" id="tamañoTablero" required/><span class="barra"></span>
+                    <label for="">Ingrese el tamaño del tablero</label><br/>
+                </div>
+                <button type="submit" >Iniciar Partida</button>
+            </div>
+            <p id="parrafo"></p>
+        </form>
+        
+    </section>
+    <section class="seccion3">
+        
+        <Table id="tabla">
+
+        </Table>
+    </section>
+    <script src="./main.js" ></script>
+
+</body>
+</html>
