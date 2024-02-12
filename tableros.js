@@ -70,7 +70,7 @@ generarNumero.addEventListener( "click", () => {
                 if(puntajes[i]===puntajes[indexganador] ){
                 indiceEmpates.push(i);
                 let tarjetaGanador =  document.querySelector(".tarjetaGanador")
-                tarjetaGanador.textContent = `Los ganadores son ${jugadores[indiceEmpates[0]]} ${jugadores[indiceEmpates[1]]}; .`
+                tarjetaGanador.textContent = `Los ganadores son ${jugadores[indiceEmpates[0]]} ${jugadores[indiceEmpates[1]]} .`
                 let victorias1 = localStorage.getItem(jugadores[indiceEmpates[0]]);
             if(victorias1 !== null) {
                 localStorage.setItem(jugadores[indiceEmpates[0]],parseInt(victorias1)+1);
